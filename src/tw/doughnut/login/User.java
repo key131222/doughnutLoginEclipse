@@ -16,7 +16,7 @@ public class User {
 	private double latitude;
 	private double longitude;
 
-//全部資料，上傳使用
+	//全部資料，上傳使用
 	public User(int mem_id, String mem_name, String mem_password, String mem_email, String mem_phone, Date mem_joindate,
 			Date mem_suspendtime, int mem_state, String mem_tax, String mem_address, double latitude,
 			double longitude) {
@@ -35,7 +35,7 @@ public class User {
 		this.longitude = longitude;
 	}
 
-//註冊使用
+	//註冊使用
 	public User(int mem_id, String mem_name, String mem_password, String mem_email, String mem_phone, Date mem_joindate,
 			int mem_state, String mem_tax) {
 		super();
